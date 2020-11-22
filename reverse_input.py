@@ -6,4 +6,5 @@ def reverse_dict(input_value):
             for k3, subdict_3 in subdict_2.items():
                 for k4, k5 in subdict_3.items():
                     out = {k5:{k4:{k3:{k2:k1}}}}
+    
     return out
